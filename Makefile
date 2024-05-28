@@ -9,10 +9,13 @@ setup_env:
 	pip install -r requirements.txt
 	pip install -r requirements-jupyter.txt
 
-hello_world:
-	python ${PYTHONPATH}/hello_world.py
+train:
+	@echo ${PYTHONPATH}
+	python ${PYTHONPATH}/pipelines/train.py
 
 teardown_env:
 	# pyenv deactivate ${PROJECT_NAME}
 	pyenv uninstall ${PROJECT_NAME}
 
+qa_data_loader:
+	python ${PYTHONPATH}/pipelines/qa/qa_data_loader.py

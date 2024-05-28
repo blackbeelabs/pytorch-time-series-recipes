@@ -1,0 +1,13 @@
+name: forecasting
+experiment: baseline
+params: 
+    common:
+        input_dim: 1
+        hidden_dim: 16
+        output_dim: 1
+        num_layers: 2
+        sequence_length: 11
+    train:
+        train_split: 0.8
+        epochs: 100
+        learning_rate: 0.01
