@@ -1,0 +1,11 @@
+*.ipynb_checkpoints/
+**/Untitled*.ipynb
+*.csv
+*.xlsx
+*.txt
+**/__pycache__/
+*.pkl
+*.DS_Store
+*.json
+!requirements*.txt
+*.python-version
