@@ -8,7 +8,7 @@ pandas==2.2.0
 pendulum==3.0.0
 python-dateutil==2.9.0.post0
 pytz==2024.1
-ruamel.yaml==0.17.0
+ruamel.yaml==0.17.21
 six==1.16.0
 sympy==1.12
 time-machine==2.14.0
